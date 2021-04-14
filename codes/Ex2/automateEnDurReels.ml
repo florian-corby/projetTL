@@ -6,6 +6,11 @@
 (* automateEnDurReelsTests.ml                  *)
 (* =========================================== *)
 
+
+(* ----------------------- *)
+(*  Fonctions Auxiliaires  *)
+(* ----------------------- *)
+
 let extractFirstChar m =
   String.get m 0
 ;;
@@ -22,19 +27,87 @@ let isComma c =
   c = '.'
 ;;
 
-let rec reconnaitRec_0(m : string) : bool =
-  let firstCarac = extractFirstChar m in
-  if(isCiffer c) then reconnaitRec_Nombre 
+let truncateWord m =
+  String.sub m 1 ((String.length m) - 1)
 ;;
 
 
-(*let rec reconnaitRec_Signe(m : string) : bool =
-;;
-
-
-let rec reconnaitRec_Nombre(m : string) : bool =
-;;
-
+(* ----------------------- *)
+(*  Fonctions Principales  *)
+(* ----------------------- *)
 
 let rec reconnaitRec_Virgule(m : string) : bool =
-;;*)
+  if(m = "")
+  then true
+  
+  else
+    (
+      let firstCarac = extractFirstChar m in
+      let truncatedWord = truncateWord m in
+
+      if(isCiffer firstCarac)
+      then reconnaitRec_Virgule truncatedWord
+
+      else false
+    )
+;;
+
+let rec reconnaitRec_Nombre(m : string) : bool =
+  if(m = "")
+  then false
+
+  else
+    (
+      let firstCarac = extractFirstChar m in
+      let truncatedWord = truncateWord m in
+  
+      if(isCiffer firstCarac)
+      then reconnaitRec_Nombre truncatedWord
+
+      else if(isComma firstCarac)
+      then reconnaitRec_Virgule truncatedWord
+
+      else false
+    )
+;;
+
+let reconnaitRec_Signe(m : string) : bool =
+  if(m = "")
+  then false
+
+  else
+    (
+      let firstCarac = extractFirstChar m in
+      let truncatedWord = truncateWord m in
+  
+      if(isCiffer firstCarac)
+      then reconnaitRec_Nombre truncatedWord
+
+      else false
+    )
+;;
+
+
+let reconnaitRec_0(m : string) : bool =
+  if(m = "")
+  then false
+
+  else
+    (
+      let firstCarac = extractFirstChar m in
+      let truncatedWord = truncateWord m in
+  
+      if(isCiffer firstCarac)
+      then reconnaitRec_Nombre truncatedWord
+
+      else if(isBinOp firstCarac)
+      then reconnaitRec_Signe truncatedWord
+
+      else false
+    )
+;;
+
+
+let reconnaitReelRec(m : string) : bool =
+  reconnaitRec_0 m
+;;
