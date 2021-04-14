@@ -1,0 +1,13 @@
+\babel@toc {french}{}
+\thispagestyle {empty} \pagestyle {empty}
+\contentsline {part}{I\hspace {1em}Analyse de billet de concert}{3}{part.1}%
+\contentsline {section}{\numberline {0.1}Exercice 1: Traitement d'une commande de billets}{4}{section.0.1}%
+\contentsline {subsubsection}{Spécification de Concert.1.lex: reconnaissance des champs clefs}{4}{section*.2}%
+\contentsline {subsubsection}{Spécification de Concert.2.lex: application de la reconnaissance à un besoin 'réel'}{5}{section*.3}%
+\contentsline {part}{II\hspace {1em}Des automates en récursif}{6}{part.2}%
+\contentsline {section}{\numberline {0.2}Exercice 2: Programmation en dur de manière récursive}{7}{section.0.2}%
+\contentsline {subsubsection}{Questions de compréhension}{7}{section*.4}%
+\contentsline {subsubsection}{Automate des réels}{7}{section*.5}%
+\contentsline {subsubsection}{Implantation des reconnaitRec}{7}{section*.6}%
+\contentsline {subsubsection}{Implantation de l'automate complet}{7}{section*.7}%
+\contentsline {subsubsection}{Programme complet}{7}{section*.8}%
