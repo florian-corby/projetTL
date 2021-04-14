@@ -1,1 +1,5 @@
 *.vpp.*
+*.cmi
+*.cmo
+*.cmx
+*.o
