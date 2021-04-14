@@ -1,0 +1,7 @@
+(* =========================================== *)
+(* AUTEUR: Florian Legendre                    *)
+(* OBJECTIF DE CE MODULE: Être une banque de   *)
+(* des fonctions implantante l'automate des    *)
+(* réels. L'automate lui-même est testé dans   *)
+(* automateEnDurReelsTests.ml                  *)
+(* =========================================== *)
