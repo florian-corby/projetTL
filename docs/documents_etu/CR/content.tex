@@ -70,50 +70,76 @@
 
 %% ---- 3)
 \subsubsection{Implantation des reconnaitRec}
+\lstinputlisting[style=Ocaml, caption=Début du code source d'automateEnDurReels.ml, firstline=10, lastline=108]{../../../codes/Ex2/automateEnDurReels.ml}
 
 
 %% ---- 4)
 \subsubsection{Implantation de l'automate complet}
+\lstinputlisting[style=Ocaml, caption=Le reste du code source d'automateEnDurReels.ml, firstline=111]{../../../codes/Ex2/automateEnDurReels.ml}
 
 
 %% ---- 5)
 \subsubsection{Programme complet}
+\lstinputlisting[style=Ocaml, caption=programme final lisant sans cesse sur le flux d'entrée]{../../../codes/Ex2/programmeFinal.ml}
+\newpage
+
 
 
 
 %%%% ======================================= %%%
 %%%%                EXERCICE 3               %%%
 %%%% ======================================= %%%
-%\section{Exercice 3: Des automates non déterministes représentés dans le code de manière récursive}
-%
+\section{Exercice 3: Des automates non déterministes représentés dans le code de manière récursive}
+\bigskip
+
 %%% ---- 1)
-%\subsubsection{}
-%
-%
+\subsubsection{Questions de compréhension}
+\medskip
+
+\textbf{Question:} Comment dans le code de reconnait\_0 allez vous représenter le fait qu'en lisant un a, on puisse aller soit de l'état 0 à l'état 1, soit de l'état 0 à l'état 2 ?\\
+
+\textbf{Réponse:} \\\\
+
+
+\textbf{Question:} Comment dans le code de reconnait\_1 allez vous représenter le fait que l'on peut passer directement, sans rien lire, à l'état 2 ?\\
+
+\textbf{Réponse:} \\\\
+
 %%% ---- 2)
-%\subsubsection{}
-%
-%
-%
+\subsubsection{Implantation et Tests de l'automate}
+\newpage
+
+
+
+
 %%%% ======================================= %%%
 %%%%                EXERCICE 4               %%%
 %%%% ======================================= %%%
-%\section{Exercice 4: Évaluation du réel correspondant à la chaîne de caractères}
-%
-%
+\section{Exercice 4: Évaluation du réel correspondant à la chaîne de caractères}
+\bigskip
+
 %%% ---- 1)
-%\subsubsection{}
-%
-%
+\subsubsection{Questions de compréhension}
+\medskip
+
+\textbf{Question:} Comment allez vous gérer votre position dans la partie décimale ($x^{eme}$ position après la virgule = indique la puissance de dix négative?), et vous en servir pour prendre en compte la nouvelle décimale lue? \\
+
+\textbf{Réponse:} \\\\
+
+
+\textbf{Question:} Comment allez vous gérer le calcul de la partie entière, lorsqu'un nouveau chiffre est lu? \\
+
+\textbf{Réponse:} \\\\
+
+\textbf{Question:} Comment allez vous gérer la transmission du calcul d'une routine récursive à l'autre? Variables globales, paramètres d'entrée sortie, valeurs de retour de fonction?\\
+
+\textbf{Réponse:} \\\\
+
 %%% ---- 2)
-%\subsubsection{}
-%
-%
+\subsubsection{Implantation de la fonction d'évaluation des réels}
+
 %%% ---- 3)
-%\subsubsection{}
-%
-%
-%%% ---- 4)
-%\subsubsection{}
+\subsubsection{Implantation du programme final d'évaluation des réels}
+
 
 \end{document}
