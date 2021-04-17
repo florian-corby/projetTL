@@ -70,12 +70,12 @@
 
 %% ---- 3)
 \subsubsection{Implantation des reconnaitRec}
-\lstinputlisting[style=Ocaml, caption=Début du code source d'automateEnDurReels.ml, firstline=10, lastline=108]{../../../codes/Ex2/automateEnDurReels.ml}
-
+\lstinputlisting[style=Ocaml, caption=Début du code source d'automateEnDurReels.ml, firstline=10, lastline=51]{../../../codes/Ex2/automateEnDurReels.ml}
+\newpage
 
 %% ---- 4)
 \subsubsection{Implantation de l'automate complet}
-\lstinputlisting[style=Ocaml, caption=Le reste du code source d'automateEnDurReels.ml, firstline=111]{../../../codes/Ex2/automateEnDurReels.ml}
+\lstinputlisting[style=Ocaml, caption=Le reste du code source d'automateEnDurReels.ml, firstline=53]{../../../codes/Ex2/automateEnDurReels.ml}
 
 
 %% ---- 5)
@@ -92,13 +92,17 @@
 \section{Exercice 3: Des automates non déterministes représentés dans le code de manière récursive}
 \bigskip
 
+\begin{center}
+	\includegraphics[scale=0.5]{../VP/ex3.jpg}
+\end{center}
+
 %%% ---- 1)
 \subsubsection{Questions de compréhension}
 \medskip
 
 \textbf{Question:} Comment dans le code de reconnait\_0 allez vous représenter le fait qu'en lisant un a, on puisse aller soit de l'état 0 à l'état 1, soit de l'état 0 à l'état 2 ?\\
 
-\textbf{Réponse:} \\\\
+\textbf{Réponse:} Un automate non déterministe signifie que l'on peut trouver un chemin valide (et donc reconnaître un mot) en passant soit par un chemin soit par un autre. Ce soit/soit ce représente en programmation par l'opérateur OU. Je vais donc faire pour la lettre 'a' à l'état 0: reconnaitRec1 resteDuMot || reconnaitRec2 resteDuMot\\\\
 
 
 \textbf{Question:} Comment dans le code de reconnait\_1 allez vous représenter le fait que l'on peut passer directement, sans rien lire, à l'état 2 ?\\
