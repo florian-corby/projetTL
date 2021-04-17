@@ -6,8 +6,7 @@
 (* fonctions étant dans evalueReels.ml         *)
 (* =========================================== *)
 
-open List;;
-#use "automateEnDurReels.ml";;
+#use "evalueReels.ml";;
 
 
 (* ----------------------- *)
@@ -17,7 +16,7 @@ open List;;
 let mots = ["123."; "123.45"; "-123."; "+123.34"; "-123.34";
             "12A3.34"; "123..33"; "123.34.44"; ".34"];;
 let nbMots = List.length mots;;
-let launchTests = List.map (fun mot -> reconnaitReelRec mot);;
+let launchTests = List.map (fun mot -> evalueReel mot);;
 
 
 
@@ -26,5 +25,5 @@ let launchTests = List.map (fun mot -> reconnaitReelRec mot);;
 (* ----------------------- *)
 
 explode (List.nth mots 3);;
-reconnaitReelRec (List.nth mots 0);;
+evalueReel (List.nth mots 2);;
 launchTests mots;;

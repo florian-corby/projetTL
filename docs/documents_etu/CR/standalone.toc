@@ -9,5 +9,12 @@
 \contentsline {subsubsection}{Questions de compréhension}{7}{section*.4}%
 \contentsline {subsubsection}{Automate des réels}{7}{section*.5}%
 \contentsline {subsubsection}{Implantation des reconnaitRec}{8}{section*.6}%
-\contentsline {subsubsection}{Implantation de l'automate complet}{8}{section*.7}%
-\contentsline {subsubsection}{Programme complet}{8}{section*.8}%
+\contentsline {subsubsection}{Implantation de l'automate complet}{9}{section*.7}%
+\contentsline {subsubsection}{Programme complet}{9}{section*.8}%
+\contentsline {section}{\numberline {0.3}Exercice 3: Des automates non déterministes représentés dans le code de manière récursive}{10}{section.0.3}%
+\contentsline {subsubsection}{Questions de compréhension}{10}{section*.9}%
+\contentsline {subsubsection}{Implantation et Tests de l'automate}{11}{section*.10}%
+\contentsline {section}{\numberline {0.4}Exercice 4: Évaluation du réel correspondant à la chaîne de caractères}{12}{section.0.4}%
+\contentsline {subsubsection}{Questions de compréhension}{12}{section*.11}%
+\contentsline {subsubsection}{Implantation de la fonction d'évaluation des réels}{12}{section*.12}%
+\contentsline {subsubsection}{Implantation du programme final d'évaluation des réels}{14}{section*.13}%

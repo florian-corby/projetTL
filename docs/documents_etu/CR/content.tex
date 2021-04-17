@@ -131,22 +131,24 @@
 
 \textbf{Question:} Comment allez vous gérer votre position dans la partie décimale ($x^{eme}$ position après la virgule = indique la puissance de dix négative?), et vous en servir pour prendre en compte la nouvelle décimale lue? \\
 
-\textbf{Réponse:} \\\\
+\textbf{Réponse:} La position 'x' après la virgule indique la puissance négative à réaliser sur le nombre évalué. On additionne alors le résultat de cette puissance négative avec la partie décimale déjà ainsi évaluée.\\\\
 
 
 \textbf{Question:} Comment allez vous gérer le calcul de la partie entière, lorsqu'un nouveau chiffre est lu? \\
 
-\textbf{Réponse:} \\\\
+\textbf{Réponse:} Lorsqu'un nouveau chiffre est lu on fait: partie entière déjà évaluée multipliée par 10 + le nouveau chiffre\\\\
 
 \textbf{Question:} Comment allez vous gérer la transmission du calcul d'une routine récursive à l'autre? Variables globales, paramètres d'entrée sortie, valeurs de retour de fonction?\\
 
-\textbf{Réponse:} \\\\
+\textbf{Réponse:} Je code sous Ocaml. Je compte utiliser les possibilités du langage en renvoyant des tuples de retour du type (boolean, partie entière, partie décimale) et en injectant des paramètres d'entrée du type (mot, partie entière, position partie décimale, partie décimale)\\\\
 
 %%% ---- 2)
 \subsubsection{Implantation de la fonction d'évaluation des réels}
+\lstinputlisting[style=Ocaml, caption=Code source d'evalueReels.ml]{../../../codes/Ex4/evalueReels.ml}
 
 %%% ---- 3)
 \subsubsection{Implantation du programme final d'évaluation des réels}
+\lstinputlisting[style=Ocaml, caption=Code source du programme final d'évaluation des réels]{../../../codes/Ex4/programmeFinal.ml}
 
 
 \end{document}
