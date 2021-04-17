@@ -1,9 +1,9 @@
 (* =========================================== *)
 (* AUTEUR: Florian Legendre                    *)
-(* OBJECTIF DE CE MODULE: Être une banque de   *)
-(* fonctions qui implantantent l'automate des  *)
-(* réels. L'automate lui-même est testé dans   *)
-(* automateEnDurReelsTests.ml                  *)
+(* OBJECTIF DE CE MODULE: Être une banque      *)
+(* des fonctions qui implantantent la fonction *)
+(* d'évaluation des réels. Les tests étant     *)
+(* réalisés dans evalueReelsTests.ml           *)
 (* =========================================== *)
 
 

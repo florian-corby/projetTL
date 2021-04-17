@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.24)  17 APR 2021 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.4.24)  17 APR 2021 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,11 +1116,11 @@ File: lstlang2.sty 2019/09/10 1.8c listings language file
 (../../../codes/Ex2/automateEnDurReels.ml) [6]
 (../../../codes/Ex2/automateEnDurReels.ml)
 (../../../codes/Ex2/programmeFinal.ml) [7]
-<../VP/ex3.jpg, id=218, 808.01875pt x 343.2825pt>
+<../VP/ex3.jpg, id=218, 809.0225pt x 344.28625pt>
 File: ../VP/ex3.jpg Graphic file (type jpg)
 <use ../VP/ex3.jpg>
 Package pdftex.def Info: ../VP/ex3.jpg  used on input line 96.
-(pdftex.def)             Requested size: 404.00839pt x 171.64082pt.
+(pdftex.def)             Requested size: 404.51027pt x 172.1427pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
@@ -1151,18 +1151,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-[8 <../VP/ex3.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[8 <../VP/ex3.jpg>] (../../../codes/Ex3/automateEnDurEx3.ml) [9]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
@@ -1172,44 +1162,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
  (./content.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `content.out' has not changed.
 (rerunfilecheck)             Checksum: 7D73C40C6D83AFFD8FDAE49E333A2199;605.
  ) 
 Here is how much of TeX's memory you used:
- 26276 strings out of 481239
- 488564 string characters out of 5920377
+ 26336 strings out of 481239
+ 489571 string characters out of 5920377
  1107824 words of memory out of 5000000
- 40842 multiletter control sequences out of 15000+600000
+ 40853 multiletter control sequences out of 15000+600000
  540074 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,12n,113p,516b,1455s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1223,10 +1223,10 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf
 cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on content.pdf (9 pages, 317202 bytes).
+Output written on content.pdf (10 pages, 324881 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 165 named destinations out of 1000 (max. 500000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 210 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

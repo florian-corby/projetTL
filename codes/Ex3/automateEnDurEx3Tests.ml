@@ -1,9 +1,9 @@
 (* =========================================== *)
 (* AUTEUR: Florian Legendre                    *)
 (* OBJECTIF DE CE MODULE: Être une banque de   *)
-(* des tests des fonctions qui implantante     *)
-(* l'automate des réels. Les fonctions sont    *)
-(* définies dans automateEnDurReels.ml         *)
+(* tests des fonctions qui implantantent       *)
+(* l'automate du langage L4. Les fonctions     *)
+(* étant définies dans automateEnDurEx3.ml     *)
 (* =========================================== *)
 
 #use "automateEnDurEx3.ml";;
