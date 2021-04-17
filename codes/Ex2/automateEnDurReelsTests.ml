@@ -8,12 +8,6 @@
 
 open List;;
 #use "automateEnDurReels.ml";;
-#trace reconnaitReelRec;;
-#untrace reconnaitReelRec;;
-#trace truncateWord;;
-#untrace truncateWord;;
-#trace launchTests;;
-#untrace launchTests;;
 
 
 (* ----------------------- *)
@@ -31,8 +25,6 @@ let launchTests = List.map (fun mot -> reconnaitReelRec mot);;
 (*          Tests          *)
 (* ----------------------- *)
 
-extractFirstChar (List.nth mots 3);;
-truncateWord (List.nth mots 3);;
-truncateWord "";;
+explode (List.nth mots 3);;
 reconnaitReelRec (List.nth mots 0);;
 launchTests mots;;
