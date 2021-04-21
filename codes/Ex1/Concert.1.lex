@@ -15,7 +15,7 @@ prenomNom ^{nomPropre}\/{nomPropre}
 {codeConcert}    {printf("codeConcert");}
 {codeDossier}    {printf("codeDossier");}
 {date}		 {printf("date");}
-DOSSIER          {printf("dossier");}
+^DOSSIER         {printf("dossier");}
 <<EOF>>		 {printf("FinFichier\n"); return 0;}
 {FL}             {printf(" FL\n");}
 {heure}		 {printf("heure");}

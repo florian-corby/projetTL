@@ -22,7 +22,7 @@ prenomNom ^{nomPropre}\/{nomPropre}
 {codeConcert}    {nbConcerts++;}
 {codeDossier}    {codeDossier=strdup(yytext);}
 {date}		 {}
-DOSSIER		 {}
+^DOSSIER	 {}
 <<EOF>>		 {return 0;}
 {FL}		 {}
 {heure}		 {}
